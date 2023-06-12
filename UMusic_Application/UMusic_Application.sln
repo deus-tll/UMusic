@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artist_ClientApp", "Artist_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerApp", "ServerApp\ServerApp.csproj", "{06CDEBC3-2B25-4768-9AD0-D89B8B5C2607}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{D655AE18-582B-4F88-B64E-9178A33DB8E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Library", "WPF_Library\WPF_Library.csproj", "{8FA013CC-D7A0-47C2-BB1F-BE3074334C65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{06CDEBC3-2B25-4768-9AD0-D89B8B5C2607}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06CDEBC3-2B25-4768-9AD0-D89B8B5C2607}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06CDEBC3-2B25-4768-9AD0-D89B8B5C2607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D655AE18-582B-4F88-B64E-9178A33DB8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D655AE18-582B-4F88-B64E-9178A33DB8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D655AE18-582B-4F88-B64E-9178A33DB8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D655AE18-582B-4F88-B64E-9178A33DB8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA013CC-D7A0-47C2-BB1F-BE3074334C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA013CC-D7A0-47C2-BB1F-BE3074334C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA013CC-D7A0-47C2-BB1F-BE3074334C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA013CC-D7A0-47C2-BB1F-BE3074334C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
