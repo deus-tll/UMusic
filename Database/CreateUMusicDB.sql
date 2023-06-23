@@ -103,9 +103,6 @@ create table [Genres](
 );
 
 
-
-
-
 create table [Releases](
 	[Id] int not null identity(1,1),
 	[CollectionId] int not null,
@@ -132,9 +129,6 @@ create table [ReleasesArtists](
 	on delete cascade
 	on update cascade
 );
-
-
-
 
 
 create table [Audios](
