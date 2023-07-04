@@ -4,6 +4,15 @@
              xmlns:local="clr-namespace:Listener_ClientApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/WPF_Library;component/Resources/ButtonStyles.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WPF_Library;component/Resources/IconStyles.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WPF_Library;component/Resources/ImageStyles.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WPF_Library;component/Resources/TextboxStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>
